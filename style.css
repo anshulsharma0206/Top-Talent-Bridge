@@ -1,0 +1,363 @@
+.nav-bar {
+    display: flex;
+}
+.nav-btn {
+    margin: 0;
+    border: 0;
+    background-color: white;
+    color: #61794A;
+    height: 49px;
+    width: 100px;
+    font-size: 17px;
+    font-weight: 650;
+    margin-right: 10px;
+}
+.nav-btn:hover {
+    cursor: pointer;
+    color: #92b970;
+}
+.nav-btns {
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 15px;
+}
+.brand-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+    margin-top: 15px;
+    width: 250px;
+    font-size: 17px;
+    font-weight: 650;
+    cursor: pointer;
+}
+.brand-name:hover {
+    color: #92b970;
+}
+.hero-img {
+    width: 100%;
+}
+.btn-book {
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    color: white;
+    background-color:#0d6efd;
+    border: none;
+}
+.btn-book:hover {
+    color: white;
+    background-color: #0b5ed7;
+    cursor: pointer;
+}
+.btn-doubt {
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    border: none;
+    background-color: #6C757D;
+    color: white;
+}
+.btn-doubt:hover {
+    cursor: pointer;
+    color: white;
+    background-color:darkslategray;
+}
+.promo-sent {
+    font-weight: 900;
+    font-size: 20px;
+}
+.data {
+    color: orange;
+    font-size: 70px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+.heading {
+    padding-left: 200px;
+}
+.bullet {
+    color: chartreuse;
+}
+.data-sent {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.total-about {
+    display: flex;
+}
+.stats-head {
+    color: #525FE1;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 220px;
+}
+.stats {
+    display: flex;
+    margin-top: 50px;
+}
+.head-span {
+    font-size: 30px;
+}
+.sym-head {
+    color: #525FE1;
+    font-size: 30px;
+    font-weight: 900;
+}
+.info-stat {
+    margin-left: 220px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #61794A;
+    margin-bottom: 50px;
+}
+.head-stats {
+    color: #525FE1;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 295px;
+}
+.para {
+    display: flex;
+}
+.stat-success {
+    color: #61794A;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 160px;
+}
+.stat-logo {
+    width: 460px;
+    height: 640px;
+}
+.head-stat2 {
+    color: #525FE1;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 220px;
+}
+.info-stat2 {
+    color: #61794A;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 220px;
+}
+.stats2 {
+    display: flex;
+}
+.head-stat2-another {
+    color: #525FE1;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 220px;
+}
+.para2 {
+    display: flex;
+}
+.info-stat2-another {
+    color: #61794A;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 280px;
+}
+.btn-book-promo {
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: #0d6efd;
+    margin-left: 400px;
+}
+.btn-book-promo:hover {
+    cursor: pointer;
+    background-color: #0b5ed7;
+    color: white;
+}
+.head-spon {
+    color: orange;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-spon {
+    width: 100%;
+}
+.features-title {
+    color: orange;
+    font-size: 34px;
+    font-weight: 700;
+}
+.head-text {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.para-text {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.head-test {
+    color: orange;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test-img {
+    display: flex;
+}
+.img-test {
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.line {
+    width: 1250px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+.img-testi {
+    height: 300px;
+    width: 100%;
+}
+.img-testi1 {
+    height: 275px;
+}
+.all-test {
+    margin-bottom: 100px;
+}
+.head-bene {
+    color: orange;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.hori-line {
+    margin-bottom: 30px;
+}
+
+/* CSS external */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.faqs {
+    position: relative;
+    background: #fff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px
+            rgba(0, 0, 0, 0.5));
+  }
+  
+  .accordion {
+    position: relative;
+    width: 350px;
+    margin-left: 40px;
+  }
+  
+  .title {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .content-accordion {
+    margin-top: 35px;
+    margin-right: 50px;
+  }
+  
+  .question-answer {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .accordion-img {
+    position: relative;
+    width: 320px;
+  }
+  
+  .title-question {
+    margin: 1.4rem 0rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+  }
+  
+  .question-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  
+  .up-icon {
+    display: none;
+  }
+  
+  .answer {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    display: none;
+  }
+  
+  .show-text .answer {
+    display: block;
+  }
+  
+  .show-text .up-icon {
+    display: inline;
+  }
+  
+  .show-text .down-icon {
+    display: none;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .accordion {
+      width: 920px;
+      height: 0;
+      display: flex;
+    }
+  
+    .accordion-img {
+      position: relative;
+      width: 420px;
+      top: 88px;
+    }
+  
+    .question-answer {
+      width: 380px;
+    }
+  
+    .content-accordion {
+      margin-top: 85px;
+    }
+  
+    .title {
+      margin-top: 50px;
+      font-size: 3rem;
+    }
+  }
