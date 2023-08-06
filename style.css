@@ -248,8 +248,6 @@
 .hori-line {
     margin-bottom: 30px;
 }
-
-/* CSS external */
 *,
 *::before,
 *::after {
@@ -258,17 +256,15 @@
   box-sizing: border-box;
 }
 .faqs {
-    position: relative;
+    /* position: relative; */
     background: #fff;
     margin-top: 50px;
     margin-bottom: 30px;
     border-radius: 10px;
-    filter: drop-shadow(0 0 10px
-            rgba(0, 0, 0, 0.5));
   }
   
   .accordion {
-    position: relative;
+    /* position: relative; */
     width: 350px;
     margin-left: 40px;
   }
@@ -277,6 +273,8 @@
     margin-top: 20px;
     font-size: 2rem;
     text-align: center;
+    color: orange;
+    font-weight: 700;
   }
   
   .content-accordion {
@@ -292,11 +290,6 @@
   .question {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .accordion-img {
-    position: relative;
-    width: 320px;
   }
   
   .title-question {
@@ -321,6 +314,8 @@
     font-size: 1.2rem;
     line-height: 1.8;
     display: none;
+    filter: drop-shadow(0 0 10px
+    rgba(0, 0, 0, 0.5));
   }
   
   .show-text .answer {
@@ -339,21 +334,11 @@
     .accordion {
       width: 920px;
       height: 0;
-      display: flex;
+      display: block;
     }
-  
-    .accordion-img {
-      position: relative;
-      width: 420px;
-      top: 88px;
-    }
-  
+
     .question-answer {
-      width: 380px;
-    }
-  
-    .content-accordion {
-      margin-top: 85px;
+      width: 1200px;
     }
   
     .title {
@@ -361,3 +346,45 @@
       font-size: 3rem;
     }
   }
+.foot {
+    margin-top: 1000px;
+}
+.head-foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-size: 50px;
+    font-weight: 700;
+}
+.para1-foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #61794A;
+    font-size: 20px;
+    font-weight: 500;
+}
+.para2-foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #61794A;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn-last {
+    border: none;
+    margin-left: 490px;
+    padding: 20px;
+    color: white;
+    background-color: #6C757D;
+    border-radius: 15px;
+}
+.btn-last:hover {
+    color: white;
+    background-color: darkslategray;
+}
+.video-sym {
+    margin-right: 10px;
+}
